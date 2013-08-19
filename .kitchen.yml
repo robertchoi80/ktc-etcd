@@ -14,7 +14,7 @@ platforms:
 suites:
 - name: default
   run_list:
-    - recipe[etcd-milt]
+    - recipe[ktc-etcd]
   attributes: {}
 
 clusters:
