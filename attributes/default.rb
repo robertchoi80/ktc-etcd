@@ -10,4 +10,4 @@ default[:etcd][:sha256]  = "7d7e6e71d27aad41345ba41a8b35dc57e01f70524a77cb7968b3
 default[:etcd][:version] = "130813"
 
 # retry for many times.. helps for fresh cluster building
-default[:etcd][:args] = "-c #{fqdn}:4001 -s #{fqdn}:7001 -r 100"
+default[:etcd][:args] = "-c 0.0.0.0:4001 -s 0.0.0.0:7001 -r 100"
