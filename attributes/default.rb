@@ -10,4 +10,4 @@ default[:etcd][:sha256]  = "7d7e6e71d27aad41345ba41a8b35dc57e01f70524a77cb7968b3
 default[:etcd][:version] = "130813"
 
 # retry for many times.. helps for fresh cluster building
-default[:etcd][:args] = "-c #{node["ipaddress"]}:4001 -s #{node["ipaddress"]}:7001 -r 100"
+default[:etcd][:args] = "-c #{ipaddress}:4001 -s #{ipaddress}:7001 -r 100"
