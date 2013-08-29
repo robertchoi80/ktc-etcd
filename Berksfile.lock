@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "ktc-etcd": {
+      "path": "."
+    },
+    "etcd": {
+      "locked_version": "1.2.3"
+    },
+    "ark": {
+      "locked_version": "0.3.0"
+    },
+    "partial_search": {
+      "locked_version": "1.0.2"
+    }
+  }
+}
