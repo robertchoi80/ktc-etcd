@@ -4,10 +4,13 @@
       "path": "."
     },
     "etcd": {
-      "locked_version": "1.2.4"
+      "locked_version": "1.3.1"
     },
     "ark": {
-      "locked_version": "0.3.0"
+      "locked_version": "0.4.0"
+    },
+    "partial_search": {
+      "locked_version": "1.0.6"
     }
   }
 }
