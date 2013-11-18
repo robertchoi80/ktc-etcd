@@ -1,6 +1,7 @@
 #
 # Recipe:: check_procs
 #
+include_recipe "ktc-monitor::client"
 
 # process monitoring and sensu-check config
 processes = node["etcd"]["processes"]
