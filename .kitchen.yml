@@ -16,8 +16,6 @@ platforms:
 suites:
 - name: default
   run_list:
-    - recipe[sensu::default]
-    - recipe[collectd::client]
     - recipe[ktc-etcd]
   attributes: 
     ha_disabled: true

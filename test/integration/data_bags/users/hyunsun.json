@@ -1,0 +1,20 @@
+{
+  "id": "hyunsun",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChxR19105ajTQePG9IvHLZkFPWys33TL4mvzvJ8EZ/qrUWlVb9e06Pe7zdwYK6CpYsqun8ENBdvyYo+qnc5LEFDnEyhKmuNgdPwM/PjiVwBZ2fBGPY4r5cy5tmWogsqzjjNUdw7Ia4Enx5WU+plO0Wr6j2erHsWnGHTXeklkraxGZrPa1RB/3iX1oL17ZSXqcpMhrIA3oBa39NF16VtjHNUyZp0HgFvLZ8S3Tqpv5gCzN52yu1W0vzT6UBAHAyMZKl/fwSeS+hLR2QuONy/28idIyO7sGmMPbColFn4px1KJb8WW4hopIjYZC8t1y/LNEH9W5u82a1f+n4K7E1eUWF hyunsun.moon@gmail.com",
+  "groups": [ "wheel" ],
+  "uid": 10003,
+  "gid": "wheel",
+  "shell": "\/bin\/bash",
+  "comment": "Hyunsun",
+  "email": "hyunsun.moon@kt.com",
+  "personal_email": "hyunsun.moon@gmail.com",
+  "access": {
+    "dev"    : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "stage"  : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "prod"   : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ]
+  },
+  "zabbix": {
+    "pager": ""
+  },
+  "setup": [ "ssh", "bash", "top", "tmux", "vim", "git", "build" ]
+}

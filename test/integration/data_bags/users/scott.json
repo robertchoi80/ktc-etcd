@@ -1,0 +1,20 @@
+{
+  "id": "scott",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMs/+JodhQ1EiwaxOwop8dopXmLLETUOstALM7ZU9NWs4T25uJRjRXhSefEtyUEJ6mFTk0W1jxGc2dx4TuEYXrQg8UBlIelMFGVOEwzuTfG0KrjSXFMJVauSP4YDtvz8i8SAELwryTAjZk9zBW7DM13XCAqIr46X7mk9MryXK8vzzb98NkzRWwTrzRXnobjJ0XM4JRzRA7QpRAHFgQBx8NwhflI1jq2WiABTr4htBFLyS4bzk8t3RuSVMrOUuizoV33CfkFgZP971fH2TiLsuZMTlGeMq2IduJjD27UUNo0GXIp99TlrB2JoP0evd3qARBecsvHqhEFtXQQFgw3+jh cloud@HHo-MacBook-Air.local",
+  "groups": [ "wheel" ],
+  "uid": 10013,
+  "gid": "users",
+  "shell": "\/bin\/bash",
+  "comment": "scott",
+  "email": "hho.choi@kt.com",
+  "personal_email": "",
+  "access": {
+    "dev"    : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "stage"  : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "prod"   : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ]
+  },
+  "zabbix": {
+    "pager": ""
+  },
+  "setup": [ "ssh", "bash", "top", "tmux", "vim", "git", "build" ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "andrew",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEvVgTPBK6sDH6Po2joKBSIJO2M3N5iDcZ81ysMMb+SheyM0Xcq0jARYUZjGyomq8v/YWM9Qo5fC2+zjEy/Rn3lC40FO0JH3raS6KMPcc3MxsDwN0vMpNFsnjV2451s923KAFdwIpEav21S7L8ZY+WcGPbfw6NE6gW7cxqirSqr0rhN7Huelp0Aq1DX1CJ37EG3JA6hAXC2/bxscppgl+SoN0FEjDX7dbLTMQvBr3LSz5B/UbV5QGAE5yBiFLuJJBbJHkMNaVtyAT5FxsG8FM9M3NajvjWJ+SAbyUwDzIitBykkje73AUcRx4/gRTczmtKVlY58LK5KzX9UIr0iKB7 andrew@andrewui-iMac2.local",
+  "groups": [ "wheel" ],
+  "uid": 10008,
+  "gid": "wheel",
+  "shell": "\/bin\/bash",
+  "comment": "",
+  "email": "andrew.kong@kt.com",
+  "personal_email": "",
+  "access": {
+    "dev"    : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "stage"  : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ],
+    "prod"   : [ "nexenta", "chef", "https", "xen_vnc", "cloudstack" ]
+  },
+  "zabbix": {
+    "pager": ""
+  },
+  "setup": [ "ssh", "bash", "top", "tmux", "vim", "git", "build" ]
+}
