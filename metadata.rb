@@ -1,5 +1,5 @@
 name    "ktc-etcd"
-version '1.1.10'
+version '1.1.11'
 
 depends "etcd", ">= 1.3.4"
 depends "partial_search", ">= 1.0.2"
