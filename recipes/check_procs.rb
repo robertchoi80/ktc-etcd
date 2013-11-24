@@ -11,7 +11,7 @@ processes.each do |process|
     command "check-procs.rb -c 10 -w 10 -C 1 -W 1 -p #{process['name']}"
     handlers ["default"]
     standalone true
-    interval 30 
+    interval 30
   end
 end
 
