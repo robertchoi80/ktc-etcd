@@ -17,6 +17,7 @@ suites:
 - name: default
   run_list:
     - recipe[ktc-etcd]
+    - recipe[ktc-monitor::client]
   attributes: 
     ha_disabled: true
     etcd:
