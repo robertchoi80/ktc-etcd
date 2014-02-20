@@ -5,9 +5,14 @@ gem 'berkshelf'
 
 group 'develop' do
   gem 'test-kitchen'
-  gem 'rubocop'
   gem 'kitchen-vagrant'
-  gem 'foodcritic'
-  gem 'guard'
-  gem 'chefspec'
+  gem 'kitchen-openstack'
+  gem 'rake'
+  gem 'foodcritic',
+      git: 'https://github.com/mlafeldt/foodcritic.git',
+      branch: 'improve-rake-task'
+  gem 'rubocop'
+  gem 'knife-cookbook-doc'
+  gem 'chefspec', '>= 3.2.0'
+  gem 'git'
 end
