@@ -7,7 +7,6 @@ default[:etcd][:version] = '0.3.0'
 default[:etcd][:sha256] = '18be476ba59db42c573ee23fbe00f4a205830ac54f752c0d46280707603c9192'
 default[:etcd][:url] = "http://#{node[:repo_host]}/prod/storage/etcd-0.3.0.tar.gz"
 
-
 default[:etcd][:search_cook] = 'ktc-etcd'
 
 default[:etcd][:addr] = ipaddress
